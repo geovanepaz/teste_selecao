@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css-scripts/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css-scripts/estilo.css">
+    <meta charset="UTF-8">
+    <title>Teste de Seleção </title>
+</head>
+<body>
+
+<form class="form-horizontal" method="POST">
+    <fieldset>
+        <!-- Form Name -->
+        <legend>Bem vindo ao assistente de migração de banco de dados</legend>
+
+        <!-- Button -->
+        <div id="a" class="form-group">
+            <label class="ontrol-label" for="buscar"></label>
+            <button  onclick="executaScripts()" type="button" id="btnPesquisar" name="btnPesquisar" value="Pesquisar"  class="btn btn-primary" >Migrar banco </button>
+        </div>
+
+    </fieldset>
+</form>
+
+<div id="resultado"></div>
+
+
+<script src="css-scripts/ajax.js"></script>
+<script type="text/javascript" src="css-scripts/js/bootstarp.min.js"></script>
+</body>
+</html>
